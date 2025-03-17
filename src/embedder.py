@@ -7,6 +7,7 @@ from sentence_transformers import SentenceTransformer
 df = pd.read_csv("data/faq_dataset.csv")
 
 # Load embedding model
+"""This is a comment"""
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # Generate question embeddings
